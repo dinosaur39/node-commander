@@ -1,0 +1,29 @@
+{
+  "name": "command",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cli": "bin/cli.js",
+    "cmd": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinosaur39/node-commander.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinosaur39/node-commander/issues"
+  },
+  "homepage": "https://github.com/dinosaur39/node-commander#readme",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "minimist": "^1.2.6"
+  }
+}
